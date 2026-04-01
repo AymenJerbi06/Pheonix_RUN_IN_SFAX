@@ -56,7 +56,7 @@ export default function Header() {
               aria-label="Retour en haut de page"
             >
               <div className="flex items-center gap-4">
-                <Image src="/images/logo_transparent.png" alt="Phoenix Running Challenge" width={120} height={40} className="h-10 w-auto object-contain" />
+                <Image src="/images/logo_transparent.png" alt="Phoenix Running Challenge" width={200} height={70} className="h-16 w-auto object-contain" />
                 <div className="hidden border-l border-white/10 pl-4 md:block">
                   <p className="site-display text-[0.72rem] leading-none text-[var(--color-orange)]">
                     Edition 2026
@@ -119,7 +119,7 @@ export default function Header() {
 
         <div className="relative flex h-full flex-col justify-between px-6 pb-8 pt-5">
           <div className="flex items-center justify-between">
-            <Image src="/images/logo_transparent.png" alt="Phoenix Running Challenge" width={120} height={40} className="h-10 w-auto object-contain" />
+            <Image src="/images/logo_transparent.png" alt="Phoenix Running Challenge" width={200} height={70} className="h-16 w-auto object-contain" />
             <button
               type="button"
               onClick={() => setMobileOpen(false)}
